@@ -2,10 +2,10 @@ FROM ubuntu:latest
 
 MAINTAINER Lyray
 
-RUN apt-get update & apt-get install -y \
-default-jre \
-default-jdk \
-maven
+RUN apt-get update
+RUN apt-get install default-jre -y
+RUN apt-get install default-jdk -y
+RUN apt-get install maven -y
 
 COPY pom.xml /xiuxiu/
 
