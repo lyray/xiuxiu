@@ -1,4 +1,4 @@
-package xiuxiu;
+package com.lyray.xiuxiu;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
