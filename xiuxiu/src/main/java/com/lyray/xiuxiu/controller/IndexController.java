@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.lyray.xiuxiu.controller;
 
 import org.springframework.stereotype.Controller;
@@ -16,7 +13,7 @@ public class IndexController {
 
 	@RequestMapping("/index")
 	public @ResponseBody String index(){
-		return "Hello world!";
+		return "Hello world1!";
 	}
 	
 }
